@@ -1,0 +1,21 @@
+# PowerShell CLI
+
+az vm create --resource-group myResourceGroup --name myVM --image win2016datacenter --admin-username azureuser
+
+
+PS /home/cloud> Get-Az
+
+
+PS /home/cloud> Get-AzStorageAccount
+
+PS /home/cloud> Get-AzVM
+
+PS /home/cloud> Get-AzResource | ft
+
+PS /home/cloud> Remove-AzVM -Name myVM -ResourceGroupName 72-acfd7227-accessing-and-using-the-azure-cloud-sh
+
+
+
+PS /home/cloud> Get-AzResource | ft
+
+
