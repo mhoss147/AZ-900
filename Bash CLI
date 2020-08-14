@@ -1,0 +1,18 @@
+# Bash CLI
+
+cloud@Azure:~$ az group list
+
+
+cloud@Azure:~$ az storage account list
+
+cloud@Azure:~$ az vm list
+
+
+az vm create \
+    --resource-group myResourceGroup \
+    --name myVM \
+    --image win2016datacenter \
+    --admin-username azureuser 
+
+cloud@Azure:~$ az vm create --resource-group 72-acfd7227-... --name myVM --image UbuntuLTS --admin-username azureu
+ser --generate-ssh-keys
